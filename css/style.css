@@ -1,0 +1,467 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserrat', sans-serif; */
+}
+body{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+/* =================================== header-part start ================================================== */
+.header{
+  width: 100%;
+  background: url("../images/Rectangle.png");
+  /* height: 100vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 0;
+}
+
+/* ====================================== here is nav-part================================================ */
+.header .logo{
+  width: 100%;
+}
+.header .logo img{
+
+}
+.header .contact-part{
+  width: 100%;
+  text-align: right;
+}
+.header .contact-part img{
+  margin-right: 10px;
+}
+.header .contact-part span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #3d2514;
+}
+.header .bg-light {
+  background-color: transparent !important;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  margin-left: 40px;
+}
+.header .navbar-light .navbar-nav .nav-link {
+  color: #3d2514;
+  font-size: 22px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+
+/* ========================================= here is banner-part ======================================= */
+
+.header .banner-part{
+  width: 100%;
+  padding: 50px 0 25px 0;
+}
+.header .banner-part .left-banner{
+  padding: 60px 0 ;
+
+}
+.header .banner-part .left-banner p{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 1px;
+  border: 2px dashed #3d2514;
+  text-align: center;
+  padding: 5px 13px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.header .banner-part .left-banner h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 400;
+  font-size: 95px;
+  color: #3d2514;
+  letter-spacing:2px ;
+  text-shadow: 4px 4px #ffe9ba;
+  margin-bottom: 0px;
+}
+.header .banner-part .left-banner h3{
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 400;
+  font-size: 45px;
+  color: #3d2514;
+  letter-spacing:2px ;
+  text-shadow: 4px 4px #ffe9ba;
+  line-height: 35px;
+}
+.header .banner-part .right-banner{
+  width: 100%;
+  text-align: center;
+  padding-left: 35px;
+}
+.header .banner-part .right-banner .b-image{
+  width: 95%;
+
+  }
+  
+/* ===================================here is try-it section start here ================================== */
+ 
+.try-it{
+  width: 100%;
+  padding: 65px 0;
+}
+/* ==========inner-left part========= */
+.try-it .inner-left-bg{
+  width: 100%;
+ 
+}
+.try-it .inner-left-bg {
+  position: relative;
+}
+
+.try-it .inner-left-bg h1{
+  top: 10px;
+  left: 28px;
+  position: absolute;
+  color: #fff;
+  font-size: 36px;
+  line-height: 30px;
+}
+.try-it .inner-left-bg h1 span{
+  font-size: 22px;
+  color: #fff; 
+}
+
+/* ===============inner-right part================== */
+
+.try-it .inner-right-bg .top-img{
+  margin-bottom: 33px;
+}
+.try-it .inner-right-bg .top-img {
+  position: relative;
+}
+.try-it .inner-right-bg .top-img h1{
+  position: absolute;
+  top: 10px;
+  left: 28px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 32px;
+} 
+.try-it .inner-right-bg .top-img span{
+  font-size: 22px;
+  color: #fff; 
+  line-height: 26px;
+}
+.try-it .inner-right-bg .bottom-img{
+  position: relative;
+}
+.try-it .inner-right-bg .bottom-img h1{
+  position: absolute;
+  top: 10px;
+  left: 28px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 30px;
+}
+.try-it .inner-right-bg .bottom-img span{
+  font-size: 22px;
+  color: #fff; 
+}
+
+/* ==========================================choose section start here================================== */
+
+.choose{
+  width: 100%;
+  padding-bottom: 50px;
+}
+.choose .inner-title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.choose .inner-title h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  background-color: #ffc045;
+  color: #3d2514;
+  display: inline-block;
+  padding: 7px 20px;
+  margin-top: 2px;
+}
+.choose .inner-title h1{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514;
+  line-height: ;
+  margin: 15px 0 15px 0;
+}
+.choose .inner-title p{
+  font-size: 14px;
+  color: #3d2514;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: ;
+}
+
+/*================ choose-bottom part start========= */
+
+.choose .burger-title{
+  width: 100%;
+  text-align: center;
+ 
+}
+.choose .burger-title h3{
+  font-size: 32px;
+  margin-top: 20px;
+  color: #3d2514;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+.choose .burger-title p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3d2514;
+}
+.choose .burger-title .btn-primary{
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #e01111;
+  font-size: 15px;
+  border: 1px solid #e01111;
+  border-radius: 0px;
+  padding: 14px 28px;
+  text-transform: uppercase;
+  transition: all 0.4s linear;
+}
+.choose .burger-title .btn-primary:hover{
+  color: #e01111;
+  border: 1px solid #e01111;
+  background: transparent;
+}
+
+/*===================================== slide-section start here============================================ */
+
+.slide-section{
+  width: 100%;
+  padding: 60px 0 16px 0;
+}
+.slide-section .owl-theme .owl-dots, .owl-theme .owl-nav {
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0px 30px 40px;
+  /* transform: translate(60% , -100% ); */
+  
+}
+
+.slide-section .owl-carousel{
+  box-shadow: 5px 10px 20px 2px #888888;
+}
+.slide-section .owl-carousel .inner-title{
+  width: 100%;
+  padding: 26px;
+}
+.slide-section .owl-carousel .inner-title h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: ;
+  color: #3d2514;
+  line-height: ;
+  letter-spacing: 2px;
+  
+}
+.slide-section .owl-carousel .inner-title h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-size:35px ;
+  color: #3d2514;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 30px;
+  
+}
+.slide-section .owl-carousel .inner-title p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #3d2514;
+}
+.slide-section .owl-theme .owl-dots .owl-dot.active span{
+  background: #ffc045;
+}
+.slide-section .owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+  background: #dcdcdc;
+}
+
+/*========================================== form-section start here====================================== */
+.form-section{
+  width: 100%;
+  position: relative;
+} 
+
+.form-section .right-image{
+  position: absolute;
+  margin: 0 auto;
+  top: 40%;
+}
+.form-section .right-image .right-img{
+  width: 233px;
+}
+.form-section .left-site-img{
+  width: 100%;
+}
+.form-section .left-site-img .left-img{
+    width: 300px;
+}
+ .form-section .title-part{
+  width: 100%;
+  text-align: center;
+  margin: 65px 0 72px;
+}
+.form-section .title-part h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #3d2514;
+   margin-bottom: 25px; 
+  letter-spacing: 2px;
+}
+.form-section .title-part h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-size:48px ;
+  color: #3d2514;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 2px;
+} 
+ .form-section .main-form{
+  width: 100%;
+  /* padding: 8px;
+  position: relative;
+  margin: auto; */
+  
+  } 
+.form-section .main-form .form-group{
+  padding: 12px 0px; 
+}
+.form-section .main-form .form-group a{
+  padding: 15px 20px;
+  font-size: ;
+}
+ .form-section .inner-form{
+  padding: 0 95px;
+} 
+.form-section .main-form .form-group a{
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #e01111;
+  font-size: 20px;
+  border: 1px solid #e01111;
+  padding: 14px 28px;
+  text-transform: uppercase;
+  transition: all 0.4s linear;
+}
+.form-section .main-form .form-group a:hover{
+  color: #e01111;
+  border: 1px solid #e01111;
+  background: transparent;
+}
+.form-section .main-form input[type=text]{
+  color: #3d3d3d; 
+  font-size: 18px;
+}
+.form-section .main-form .form-group input{
+  padding: 13px 22px;
+  border-color: #3d3d3d;
+  opacity: 0.5;
+}
+.form-section .form-control::placeholder {
+  color: #3d3d3d; 
+  opacity: 0.6;
+  font-size: 18px;
+} 
+
+/* =========================footer-part start here==================== */
+
+.footer-part .inner-footer{
+ background-image: url("../images/fimg.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 60px 40px 0px 40px;
+}
+.footer-part .inner-footer{
+
+
+}
+.footer-part .inner-footer .upper-part{
+
+
+}
+.footer-part .inner-footer .upper-part .flogo-img{
+  margin-bottom: 30px;
+}
+.footer-part .inner-footer .upper-part .flogo-img img{
+  width: 60%;
+}
+
+.footer-part .inner-footer .upper-part p{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.footer-part .inner-footer .icon-part{
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+
+}
+.footer-part .inner-footer .icon-part .align-items-center {
+  align-items: center !important;
+  margin-bottom: 12px;
+}
+.footer-part .inner-footer .icon-part .align-items-center h5{
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0;
+}
+.footer-part .inner-footer .last-footer-part{
+  width: 100%;
+  margin-top: 50px;
+}
+.footer-part .inner-footer .last-footer-part .left-para{
+  display: flex;
+  align-items: center;
+}
+.footer-part .inner-footer  .last-footer-part p{
+  color: #fff;
+  font-size: 17px; 
+}
+.footer-part .last-footer-part  .icon-part2{
+  text-align: right;
+}
+.footer-part  .last-footer-part  .icon-part2  ul{
+  list-style: none;
+  
+}
+.footer-part  .last-footer-part  .icon-part2 ul li{
+  display: inline-block;
+  
+}
+.footer-part .last-footer-part  .icon-part2 ul li a{
+  
+}
+.footer-part .last-footer-part  .icon-part2  i{
+  margin-right: 16px;
+  background-color: #fff;
+  color: black;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50px;
+}
